@@ -1,6 +1,6 @@
 import React from 'react'
 
-const componentName = () => {
+const Footer = () => {
   return (
     <>
       {/* Footer */}
@@ -42,4 +42,4 @@ const componentName = () => {
   )
 }
 
-export default componentName
+export default Footer
