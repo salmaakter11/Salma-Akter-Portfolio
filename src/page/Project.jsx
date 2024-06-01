@@ -1,359 +1,101 @@
-import React from 'react'
+import React from 'react';
 
 const Project = () => {
+  const projects = [
+    {
+      category: "E-commerce",
+      items: [
+        { name: "EkotaMart", url: "https://shop.ekotamart.com/#", imgSrc: "assets/img/ekotamart.com" },
+        { name: "zoota footwear", url: "https://joota.airticketbangladesh.com", imgSrc: "assets/img/zootafootwear.png" },
+        { name: "Zestmartbd", url: "https://zestmartbd.com", imgSrc: "assets/img/zestmart.png" },
+        { name: "watchghor", url: "https://watchghorbd.com", imgSrc: "assets/img/watchghor.png" }
+      ]
+    },
+    {
+      category: "Company",
+      items: [
+        { name: "It Sheba Limited", url: "http://itsheba.com.bd/", imgSrc: "assets/img/it-sheba.png" },
+        { name: "Umrah Sheba", url: "https://umrahsheba.com/", imgSrc: "assets/img/umrah-sheba.png" },
+        { name: "rarcdc", url: "https://rarcdc.org/", imgSrc: "assets/img/rainbow.png" },
+        { name: "protyzer", url: "https://protyzermedicalsystem.com/", imgSrc: "assets/img/protyzer.png" },
+        { name: "fastmarkcorporation", url: "https://www.fastmarkcorporation.com/", imgSrc: "assets/img/fast.png" },
+        { name: "jewel-design-ltd", url: "https://jeweldesign.com.bd/", imgSrc: "assets/img/jwel-design-ltd.png" },
+        { name: "SF Denim", url: "https://sfdenim.airticketbangladesh.com/", imgSrc: "assets/img/sf.png" }
+      ]
+    },
+    {
+      category: "Travels",
+      items: [
+        { name: "A To Z Holidays", url: "http://atoztour.net/", imgSrc: "assets/img/atozlolyday.png" },
+        { name: "blue-voyage", url: "", imgSrc: "assets/img/blue-voyage.png" },
+        { name: "Muskan Holidays", url: "http://muskaanholidays.com/", imgSrc: "assets/img/muskan.png" },
+        { name: "Travel Tour", url: "", imgSrc: "assets/img/travel.png" },
+        { name: "R.B-Tours&Travels", url: "", imgSrc: "assets/img/rb.png" }
+      ]
+    },
+    {
+      category: "NGO",
+      items: [
+        { name: "Ashraf Foundation", url: "https://ashrafbd.org/", imgSrc: "assets/img/ashraf.png" },
+        { name: "RUS", url: "https://rusbd.org/", imgSrc: "assets/img/rus.png" },
+        { name: "Community Management Center", url: "https://cmcpbbd.org/", imgSrc: "assets/img/community.png" },
+        { name: "heaven architect", url: "", imgSrc: "assets/img/heaven.png" },
+        { name: "Crown Agency", url: "https://crownagencies.net/", imgSrc: "assets/img/crown.png" }
+      ]
+    },
+    {
+      category: "School Website",
+      items: [
+        { name: "BCB High School", url: "http://bcbhighschool.com.bd/", imgSrc: "assets/img/bcbhigh-school.png" },
+        { name: "Child Care School", url: "https://childcareschool.org/", imgSrc: "assets/img/child-care-school.png" }
+      ]
+    },
+    {
+      category: "Admin Panel",
+      items: [
+        { name: "Admin Panel It Sheba", url: "http://bcbhighschool.com.bd/", imgSrc: "assets/img/admin-panel.png" }
+      ]
+    }
+  ];
+
   return (
     <>
-      {/*Project */}
-      <section
-          id="portfolio"
-          data-scroll-index={3}
-          className="section portfolio-section gray-bg-1">
-          <div className="container">
-            <div className="section-heading">
-              <h3>
-                <span>My Portfolio</span>
-              </h3>
-            </div>
-            <div className="project">
-              <h3 className="skill-heading section-heading"> E-commerce </h3>
-              <div className="lightbox-gallery">
-                <div className="row g-3 g-lg-4 portfolio-content">
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://ekotamart.com/" target="_blank"> EkotaMart</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://ekotamart.com/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/ekotamart.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://joota.airticketbangladesh.com" target="_blank"> zoota footwear</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://joota.airticketbangladesh.com" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/zootafootwear.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://zestmartbd.com" target="_blank"> Zestmartbd</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://zestmartbd.com" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/zestmart.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://watchghorbd.com" target="_blank">watchghor</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://watchghorbd.com" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/watchghor.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <h3 className="skill-heading section-heading"> Company </h3>
-              <div className="lightbox-gallery">
-                <div className="row g-3 g-lg-4 portfolio-content">
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="http://itsheba.com.bd/" target="_blank"> It Sheba Limited</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="http://itsheba.com.bd/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/it-sheba.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://umrahsheba.com/" target="_blank"> Umrah Sheba</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://umrahsheba.com/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/umrah-sheba.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://rarcdc.org/" target="_blank"> rarcdc</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://rarcdc.org/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/rainbow.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                 
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://protyzermedicalsystem.com/" target="_blank">protyzer </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://protyzermedicalsystem.com/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/protyzer.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://www.fastmarkcorporation.com/" target="_blank">fastmarkcorporation </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://www.fastmarkcorporation.com/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/fast.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://jeweldesign.com.bd/" target="_blank">jewel-design-ltd </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://jeweldesign.com.bd/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/jwel-design-ltd.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://sfdenim.airticketbangladesh.com/" target="_blank">SF Denim </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://sfdenim.airticketbangladesh.com/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/sf.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <h3 className="skill-heading section-heading">Travels </h3>
-              <div className="lightbox-gallery">
-                <div className="row g-3 g-lg-4 portfolio-content">
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="http://atoztour.net/" target="_blank">A To Z Holydays</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="http://atoztour.net/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/atozlolyday.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="" target="_blank">blue-voyage</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/blue-voyage.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="http://muskaanholidays.com/" target="_blank">Muskan Holydays</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="http://muskaanholidays.com/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/muskan.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <h3 className="skill-heading section-heading"> NGO</h3>
-              <div className="lightbox-gallery">
-                <div className="row g-3 g-lg-4 portfolio-content">
-               
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://ashrafbd.org/" target="_blank">Ashraf Foundation </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://ashrafbd.org/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/ashraf.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://rusbd.org/" target="_blank">RUS </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://rusbd.org/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/rus.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://cmcpbbd.org/" target="_blank">community Managenment Center </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://cmcpbbd.org/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/community.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="" target="_blank">heaven architect </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/heaven.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://crownagencies.net/" target="_blank">Crown Agency </a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://crownagencies.net/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/crown.png
-                        " title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-            <div className="project">
-              <h3 className="skill-heading section-heading"> School Website </h3>
-              <div className="lightbox-gallery">
-                <div className="row g-3 g-lg-4 portfolio-content">
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="http://bcbhighschool.com.bd/" target="_blank"> BCB High School</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="http://bcbhighschool.com.bd/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/bcbhigh-school.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 col-lg-4 grid-item">
-                    <div className="portfolio-box">
-                      <div className="portfolio-text">
-                        <h6 ><a href="https://childcareschool.org/" target="_blank"> Child Care School</a></h6>
-                        <p>Website</p>
-                        <a className="gallery-link" href="https://childcareschool.org/" target="_blank">
-                          <i className="bi-arrow-up-right-circle" />
-                        </a>
-                      </div>
-                      <div className="portfolio-img">
-                        <img src="assets/img/child-care-school.png" title="" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                 
-                </div>
-              </div>
-            </div>
+      {/* Project Section */}
+      <section id="portfolio" data-scroll-index={3} className="section portfolio-section gray-bg-1">
+        <div className="container">
+          <div className="section-heading">
+            <h3><span>My Portfolio</span></h3>
           </div>
-        </section>
-        {/* End Project */}
+          {projects.map((project, index) => (
+            <div key={index} className="project">
+              <h3 className="skill-heading section-heading">{project.category}</h3>
+              <div className="lightbox-gallery">
+                <div className="row g-3 g-lg-4 portfolio-content">
+                  {project.items.map((item, idx) => (
+                    <div key={idx} className="col-sm-6 col-lg-4 grid-item">
+                      <div className="portfolio-box">
+                        <div className="portfolio-text">
+                          <h6><a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a></h6>
+                          <p>Website</p>
+                          <a className="gallery-link" href={item.url} target="_blank" rel="noopener noreferrer">
+                            <i className="bi-arrow-up-right-circle" />
+                          </a>
+                        </div>
+                        <div className="portfolio-img">
+                          <img src={item.imgSrc} title="" alt={item.name} />
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+      {/* End Project Section */}
     </>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
