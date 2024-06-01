@@ -35,7 +35,7 @@ const componentName = () => {
               </a>
             </li>
           </ul>
-          <p className="copyright">© 2023 copyright all right reserved</p>
+          <p className="copyright">© 2024 copyright all right reserved designed & Developed by Salma</p>
         </div>
       </footer>
     </>
