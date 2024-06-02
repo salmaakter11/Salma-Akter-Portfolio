@@ -15,8 +15,7 @@ const Profile = () => {
                     I'm a <span id="type-it">Web Developer</span>
                   </h2>
                   <p className="pe-lg-5">
-                    I have studied computer science and Engineering from Daffodil
-                    international University.
+                 I have completed computer science and Engineering from Daffodil international University.
                   </p>
                   <div className="btn-bar">
                     <a
