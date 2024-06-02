@@ -46,7 +46,7 @@ const Project = () => {
     {
       category: "School Website",
       items: [
-        { name: "BCB High School", url: "http://bcbhighschool.com.bd/", imgSrc: "assets/img/bcbhigh-school.png" },
+        { name: "BCB High School", url: "https://bcbhs.airticketbangladesh.com/", imgSrc: "assets/img/bcbhigh-school.png" },
         { name: "Child Care School", url: "https://childcareschool.org/", imgSrc: "assets/img/child-care-school.png" }
       ]
     },
