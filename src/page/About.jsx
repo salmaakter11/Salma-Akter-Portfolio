@@ -65,6 +65,19 @@ const About = () => {
                                     <ul>
                                         <li>
                                             <div className="a-icon">
+                                                <i className="fab fa-github" />
+                                            </div>
+                                            <div className="a-text">
+                                                <a
+                                                    className="text-reset stretched-link"
+                                                    href="https://github.com/salmaakter11"
+                                                >
+                                                    Github
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="a-icon">
                                                 <i className="fab fa-whatsapp" />
                                             </div>
                                             <div className="a-text">
