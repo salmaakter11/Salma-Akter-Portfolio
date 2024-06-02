@@ -53,7 +53,7 @@ const Project = () => {
     {
       category: "Admin Panel",
       items: [
-        { name: "Admin Panel It Sheba", url: "http://bcbhighschool.com.bd/", imgSrc: "assets/img/admin-panel.png" }
+        { name: "Admin Panel It Sheba", url: "", imgSrc: "assets/img/admin-panel.png" }
       ]
     }
   ];
