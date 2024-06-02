@@ -142,21 +142,17 @@ const About = () => {
                                                         aria-valuenow={100}
                                                         aria-valuemin={0}
                                                         aria-valuemax={100} >
-                                                        <span>92%</span>
+                                                        <span>100%</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="skill-lt">
                                                 <h6 className="dark-color">CSS</h6>
                                                 <div className="skill-bar">
-                                                    <div
-                                                        className="skill-bar-in"
-                                                        role="progressbar"
-                                                        aria-valuenow={95}
-                                                        aria-valuemin={0}
-                                                        aria-valuemax={100} >
-                                                        <span>92%</span>
-                                                    </div>
+                                                    <div className="skill-bar-in" role="progressbar" aria-valuenow="95"
+                                                    aria-valuemin="0" aria-valuemax="100">
+                                                    <span>95%</span>
+                                                </div>
                                                 </div>
                                             </div>
                                             <div className="skill-lt">
@@ -181,7 +177,7 @@ const About = () => {
                                                         aria-valuenow={90}
                                                         aria-valuemin={0}
                                                         aria-valuemax={100} >
-                                                        <span>92%</span>
+                                                        <span>90%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -194,7 +190,7 @@ const About = () => {
                                                         aria-valuenow={90}
                                                         aria-valuemin={0}
                                                         aria-valuemax={100} >
-                                                        <span>92%</span>
+                                                        <span>90%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -207,7 +203,7 @@ const About = () => {
                                                         aria-valuenow={80}
                                                         aria-valuemin={0}
                                                         aria-valuemax={100}>
-                                                        <span>92%</span>
+                                                        <span>80%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -221,7 +217,7 @@ const About = () => {
                                                         aria-valuenow={80}
                                                         aria-valuemin={0}
                                                         aria-valuemax={100}>
-                                                        <span>92%</span>
+                                                        <span>82%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -235,7 +231,7 @@ const About = () => {
                                                         aria-valuenow={100}
                                                         aria-valuemin={0}
                                                         aria-valuemax={100}>
-                                                        <span>92%</span>
+                                                        <span>100%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -248,7 +244,7 @@ const About = () => {
                                                         aria-valuenow={95}
                                                         aria-valuemin={0}
                                                         aria-valuemax={100}>
-                                                        <span>92%</span>
+                                                        <span>95%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -274,7 +270,7 @@ const About = () => {
                                                         aria-valuemin={0}
                                                         aria-valuemax={100}
                                                     >
-                                                        <span>92%</span>
+                                                        <span>90%</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -288,7 +284,7 @@ const About = () => {
                                                         aria-valuemin={0}
                                                         aria-valuemax={100}
                                                     >
-                                                        <span>92%</span>
+                                                        <span>90%</span>
                                                     </div>
                                                 </div>
                                             </div>
