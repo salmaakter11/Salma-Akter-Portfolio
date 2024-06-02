@@ -1,3 +1,3 @@
-# React + Vite
+# React.js + Vue.js + Vite
 
 
