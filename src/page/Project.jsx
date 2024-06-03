@@ -27,7 +27,7 @@ const Project = () => {
       category: "Travels",
       items: [
         { name: "A To Z Holidays", url: "http://atoztour.net/", imgSrc: "assets/img/atozlolyday.png" },
-        { name: "blue-voyage", url: "", imgSrc: "assets/img/blue-voyage.png" },
+        { name: "blue-voyage", url: "https://bluevoyage.com.bd/", imgSrc: "assets/img/blue-voyage.png" },
         { name: "Muskan Holidays", url: "http://muskaanholidays.com/", imgSrc: "assets/img/muskan.png" },
         { name: "Travel Tour", url: "", imgSrc: "assets/img/travel.png" },
         { name: "R.B-Tours&Travels", url: "", imgSrc: "assets/img/rb.png" }
