@@ -3,15 +3,6 @@ import React from 'react';
 const Project = () => {
   const projects = [
     {
-      category: "E-commerce",
-      items: [
-        { name: "EkotaMart", url: "https://shop.ekotamart.com/#", imgSrc: "assets/img/ekotamart.com" },
-        { name: "zoota footwear", url: "https://joota.airticketbangladesh.com", imgSrc: "assets/img/zootafootwear.png" },
-        { name: "Zestmartbd", url: "https://zestmartbd.com", imgSrc: "assets/img/zestmart.png" },
-        { name: "watchghor", url: "https://watchghorbd.com", imgSrc: "assets/img/watchghor.png" }
-      ]
-    },
-    {
       category: "Company",
       items: [
         { name: "It Sheba Limited", url: "http://itsheba.com.bd/", imgSrc: "assets/img/it-sheba.png" },
@@ -21,6 +12,15 @@ const Project = () => {
         { name: "fastmarkcorporation", url: "https://www.fastmarkcorporation.com/", imgSrc: "assets/img/fast.png" },
         { name: "jewel-design-ltd", url: "https://jeweldesign.com.bd/", imgSrc: "assets/img/jwel-design-ltd.png" },
         { name: "SF Denim", url: "https://sfdenim.airticketbangladesh.com/", imgSrc: "assets/img/sf.png" }
+      ]
+    },
+     {
+      category: "E-commerce",
+      items: [
+        { name: "EkotaMart", url: "https://shop.ekotamart.com/#", imgSrc: "assets/img/ekotamart.com" },
+        { name: "zoota footwear", url: "https://joota.airticketbangladesh.com", imgSrc: "assets/img/zootafootwear.png" },
+        { name: "Zestmartbd", url: "https://zestmartbd.com", imgSrc: "assets/img/zestmart.png" },
+        { name: "watchghor", url: "https://watchghorbd.com", imgSrc: "assets/img/watchghor.png" }
       ]
     },
     {
