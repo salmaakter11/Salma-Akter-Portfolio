@@ -35,7 +35,7 @@ const Project = () => {
         { name: "blue-voyage", url: "https://bluevoyage.com.bd/", imgSrc: "assets/img/blue-voyage.png" },
         { name: "Muskan Holidays", url: "http://muskaanholidays.com/", imgSrc: "assets/img/muskan.png" },
         { name: "Travel Tour", url: "", imgSrc: "assets/img/travel.png" },
-        { name: "R.B-Tours&Travels", url: "", imgSrc: "assets/img/rb.png" }
+        { name: "R.B-Tours&Travels", url: "https://www.rbtbd.com/", imgSrc: "assets/img/rb.png" }
       ]
     },
     {
