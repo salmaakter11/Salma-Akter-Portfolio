@@ -24,7 +24,8 @@ const Project = () => {
         { name: "EkotaMart", url: "https://shop.ekotamart.com/#", imgSrc: "assets/img/ekotamart.com" },
         { name: "zoota footwear", url: "https://joota.airticketbangladesh.com", imgSrc: "assets/img/zootafootwear.png" },
         { name: "Zestmartbd", url: "https://zestmartbd.com", imgSrc: "assets/img/zestmart.png" },
-        { name: "watchghor", url: "https://watchghorbd.com", imgSrc: "assets/img/watchghor.png" }
+        // { name: "watchghor", url: "https://watchghorbd.com", imgSrc: "assets/img/watchghor.png" }
+        { name: "watchghor", url: "http://rifatmart.com/", imgSrc: "assets/img/rifat-mart.JPG" }
       ]
     },
     {
