@@ -5,10 +5,10 @@ const Project = () => {
     {
       category: "Company",
       items: [
+        { name: "Monir Travel LLC", url: "#", imgSrc: "assets/img/monir-llc.JPG" },
         { name: "It Sheba Limited", url: "http://itsheba.com.bd/", imgSrc: "assets/img/it-sheba.png" },
         { name: "Umrah Sheba", url: "https://umrahsheba.com/", imgSrc: "assets/img/umrah-sheba.png" },
-          { name: "Monir Group", url: "https://mg.monirsoft.com/", imgSrc: "assets/img/mg-group.JPG" },
-        { name: "Monir Travel LLC", url: "#", imgSrc: "assets/img/monir-llc.JPG" },
+        { name: "Monir Group", url: "https://mg.monirsoft.com/", imgSrc: "assets/img/mg-group.JPG" },
         { name: "Land-group", url: "https://land.airticketbangladesh.com/", imgSrc: "assets/img/land.JPG" },
         { name: "rarcdc", url: "https://rarcdc.org/", imgSrc: "assets/img/rainbow.png" },
         { name: "Portfolio(Md-Monirul-Islam)", url: "#", imgSrc: "assets/img/Portfolio(Md-Monirul-Islam).JPG" },
