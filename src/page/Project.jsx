@@ -11,7 +11,7 @@ const Project = () => {
          { name: "Monir Travel LLC", url: "#", imgSrc: "assets/img/monir-llc.JPG" },
         { name: "Land-group", url: "https://land.airticketbangladesh.com/", imgSrc: "assets/img/land.JPG" },
         { name: "rarcdc", url: "https://rarcdc.org/", imgSrc: "assets/img/rainbow.png" },
-        { name: "Portfolio(Md-Monirul-Islam)", url: "#", imgSrc: "assets/img/Portfolio(Md-Monirul-Islam).JPG" },
+        { name: "Portfolio(Md-Monirul-Islam)", url: "https://www.themonirul.com/", imgSrc: "assets/img/Portfolio(Md-Monirul-Islam).JPG" },
         { name: "protyzer", url: "https://protyzermedicalsystem.com/", imgSrc: "assets/img/protyzer.png" },
         { name: "fastmarkcorporation", url: "https://www.fastmarkcorporation.com/", imgSrc: "assets/img/fast.png" },
         { name: "jewel-design-ltd", url: "https://jeweldesign.com.bd/", imgSrc: "assets/img/jwel-design-ltd.png" },
