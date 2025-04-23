@@ -19,7 +19,7 @@ const Project = () => {
         { name: "jewel-design-ltd", url: "https://jeweldesign.com.bd/", imgSrc: "assets/img/jwel-design-ltd.png" },
         { name: "SF Denim", url: "https://sfdenim.airticketbangladesh.com/", imgSrc: "assets/img/sf.png" }
          { name: "Capital News", url: "https://www.capitalnews24.net/", imgSrc: "assets/img/NEWS.png" },
-        { name: "sabit International", url: "https://sabitinternational.com/", imgSrc: "assets/img/SABIT-INT.png" },
+{ name: "sabit International", url: "https://sabitinternational.com/", imgSrc: "assets/img/SABIT-INT.png" },
         { name: "Archetive", url: "https://www.archetive-bd.com/", imgSrc: "assets/img/arc.png" },
       ]
     },
