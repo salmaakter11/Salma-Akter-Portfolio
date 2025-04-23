@@ -25,7 +25,11 @@ const Project = () => {
         { name: "zoota footwear", url: "https://joota.airticketbangladesh.com", imgSrc: "assets/img/zootafootwear.png" },
         { name: "Zestmartbd", url: "https://zestmartbd.com", imgSrc: "assets/img/zestmart.png" },
         // { name: "watchghor", url: "https://watchghorbd.com", imgSrc: "assets/img/watchghor.png" }
-        { name: "watchghor", url: "http://rifatmart.com/", imgSrc: "assets/img/rifat-mart.JPG" }
+        { name: "watchghor", url: "http://rifatmart.com/", imgSrc: "assets/img/rifat-mart.JPG" },
+        { name: "Astrovet", url: " https://astrovet.uk/", imgSrc: "assets/img/Astrovet.png" },
+        { name: "jeweldesign", url: "https://jeweldesign.monirsoft.com/", imgSrc: "assets/img/jeweldesign.png" },
+        { name: "petra product bd ", url: "https://petra.monirsoft.com/index.html", imgSrc: "assets/img/petra.png" },
+        { name: "Sevenlinksnts", url: "https://sevenlinksapparels.com/", imgSrc: "assets/img/sevenlinks.png" },
       ]
     },
     {
