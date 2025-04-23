@@ -18,6 +18,7 @@ const Project = () => {
         { name: "fastmarkcorporation", url: "https://www.fastmarkcorporation.com/", imgSrc: "assets/img/fast.png" },
         { name: "jewel-design-ltd", url: "https://jeweldesign.com.bd/", imgSrc: "assets/img/jwel-design-ltd.png" },
         { name: "SF Denim", url: "https://sfdenim.airticketbangladesh.com/", imgSrc: "assets/img/sf.png" }
+         { name: "Capital News", url: "https://www.capitalnews24.net/", imgSrc: "assets/img/NEWS.png" },
       ]
     },
      {
