@@ -52,7 +52,8 @@ const Project = () => {
         { name: "RUS", url: "https://rusbd.org/", imgSrc: "assets/img/rus.png" },
         { name: "Community Management Center", url: "https://cmcpbbd.org/", imgSrc: "assets/img/community.png" },
         { name: "heaven architect", url: "", imgSrc: "assets/img/heaven.png" },
-        { name: "Crown Agency", url: "https://crownagencies.net/", imgSrc: "assets/img/crown.png" }
+        { name: "Crown Agency", url: "https://crownagencies.net/", imgSrc: "assets/img/crown.png" },
+        { name: "Gramen seba sangstha", url: "#", imgSrc: "assets/img/Tmss.png" },
       ]
     },
     {
