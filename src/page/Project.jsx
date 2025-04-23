@@ -7,6 +7,7 @@ const Project = () => {
       items: [
        { name: "Monir Group", url: "https://mg.monirsoft.com/", imgSrc: "assets/img/mg-group.JPG" },
         { name: "It Sheba Limited", url: "http://itsheba.com.bd/", imgSrc: "assets/img/it-sheba.png" },
+        { name: "Construction Professional Ltd", url: "https://cpl2.monirsoft.com/", imgSrc: "assets/img/cpl.png" },
         { name: "Umrah Sheba", url: "https://umrahsheba.com/", imgSrc: "assets/img/umrah-sheba.png" },
         { name: "Monir Travel LLC", url: "#", imgSrc: "assets/img/monir-llc.JPG" },
         { name: "Emaarhomes", url: "https://www.emaarhomes.com.au/", imgSrc: "assets/img/land.JPG" },
