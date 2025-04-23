@@ -35,6 +35,9 @@ const Project = () => {
     {
       category: "Travels",
       items: [
+         { name: "TravelShaba Ltd", url: "https://www.travelsheba.com/", imgSrc: "assets/img/travelsheba.png" },
+        { name: "Monir Travel & Tourism LLC ", url: "https://www.monirtravels.com/", imgSrc: "assets/img/llc.png" },
+        { name: "Amanot Travels International", url: "#", imgSrc: "assets/img/amanot.png" },
         { name: "A To Z Holidays", url: "http://atoztour.net/", imgSrc: "assets/img/atozlolyday.png" },
         { name: "blue-voyage", url: "https://bluevoyage.com.bd/", imgSrc: "assets/img/blue-voyage.png" },
         { name: "Muskan Holidays", url: "http://muskaanholidays.com/", imgSrc: "assets/img/muskan.png" },
