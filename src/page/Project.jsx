@@ -74,7 +74,7 @@ const Project = () => {
       category: "Admin Panel",
       items: [
         { name: "Monirsoft Admin", url: "#", imgSrc: "assets/img/monirsoft-admin.jpg" },
-        { name: "Travel Service admin", url: "", imgSrc: "assets/img/travel-services-dashboard.jpg" }
+        { name: "Travel Service admin", url: "", imgSrc: "assets/img/travel-services-dashboard.jpg" },
          { name: "Ekota Admin Panel", url: "#", imgSrc: "assets/img/ekotaadmin.JPG" },
         { name: "Admin Panel It Sheba", url: "", imgSrc: "assets/img/admin-panel.png" }
       ]
