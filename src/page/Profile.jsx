@@ -55,7 +55,7 @@ const Profile = () => {
                     </svg>
                   </div>
                   <img
-                    src="assets/img/salma.jpg"
+                    src="assets/img/SalmaAkter.JPG"
                     title=""
                     alt="" />
                 </div>
