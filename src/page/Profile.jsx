@@ -20,9 +20,14 @@ const Profile = () => {
                   <div className="btn-bar">
                    <a
                       className="px-btn px-btn-portfolio"
-                      href="assets/img/Salma-Akter(CV).pdf" target="_blank">
+                      href="" target="_blank">
                       Download cv <i className="bi-download" />
                     </a>
+                     {/* <a
+                      className="px-btn px-btn-portfolio"
+                      href="assets/img/Salma-Akter(CV).pdf" target="_blank">
+                      Download cv <i className="bi-download" />
+                    </a> */}
                   </div>
                 </div>
               </div>
