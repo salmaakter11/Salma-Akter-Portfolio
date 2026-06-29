@@ -9,7 +9,7 @@ const Profile = () => {
             <div className="row align-items-center min-vh-100 flex-row-reverse">
               <div className="col-lg-6 ps-xl-5 mb-5 mb-lg-0">
                 <div className="home-intro">
-                  <h6>👋 Hi, I’ m </h6>
+                  <h6>👋 Hi, I’ m mm</h6>
                   <h1>Salma Akter</h1>
                   <h2>
                     I'm a <span id="type-it">Web Developer</span>
