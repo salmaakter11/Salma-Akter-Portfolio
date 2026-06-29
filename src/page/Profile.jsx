@@ -18,11 +18,11 @@ const Profile = () => {
                  I have completed computer science and Engineering from Daffodil international University.
                   </p>
                   <div className="btn-bar">
-                    <a
+                    {/* <a
                       className="px-btn px-btn-portfolio"
                       href="assets/img/Salma-Akter(CV).pdf" target="_blank">
                       Download cv <i className="bi-download" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
